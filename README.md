@@ -29,7 +29,8 @@ git checkout -b < your_new_branch >
 ```
 git status
 git add .
-git commit -m 'your_commit' or git commit -S -m 'your_commit' for signed commit
+```
+``git commit -m 'your_commit'`` or ``git commit -S -m 'your_commit'`` for signed commit
 ```
 - Follow the code style of the project, including indentation.
 - If the project has tests run them!
