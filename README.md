@@ -38,11 +38,11 @@ git commit -m 'your_commit' or git commit -S -m 'your_commit' for signed commit
 - Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
 - Push your branch to your fork on Github, the remote `origin`.
 ```
-git push -u origin < your_new_branch >
+git push --set-upstream origin < your_new_branch >
 ```
 - From your fork open a pull request in the correct branch. Target the project's `develop` branch if there is one, else go for `master`!
 ```
-In Github page of original repo.
+In Github page of your repo, you will have this option.
 ```
 - …
 - If the maintainer requests further changes just push them to your branch. The PR will be updated automatically.
