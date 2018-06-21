@@ -2,12 +2,12 @@ Contributing
 ============
 If you want to contribute to a project and make it better, your help is very welcome. Contributing is also a great way to learn more about social coding on Github, new technologies and and their ecosystems and how to make constructive, helpful bug reports, feature requests and the noblest of all contributions: a good, clean pull request.
 
+The bash commands below will give you step-by-step intructions to contribute to this Contributing project.
+
+
 ### How to make a clean pull request
 
-Look for a project's contribution instructions. If there are any, follow them.
-
-{note} The bash commands below will give you step-by-step intructions to contribute to this Contributing project.
-
+- Look for a project's contribution instructions. If there are any, follow them.
 - Create a personal fork of the project on Github.
 - Clone the fork on your local machine. Your remote repo on Github is called `origin`.
 
@@ -37,7 +37,15 @@ git pull upstream master
 git checkout -b fb-command-line-examples
 ```
 
-- Implement/fix your feature, comment your code.
+- Implement/fix your feature, comment your code.  
+
+  *Remember:*  
+  Follow the code style of the project, including indentation.  
+  If the project has tests run them!  
+  Write or adapt tests as needed.
+
+  And last but not least: Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
+
 
 ```bash
 #To make your first change
@@ -53,10 +61,6 @@ git commit -m "Add more bash commands to even more steps"
 #Results in two commits to your fork of the repo
 ```
 
-- Follow the code style of the project, including indentation.
-- If the project has tests run them!
-- Write or adapt tests as needed.
-- Add or change the documentation as needed.
 - Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
 
 ```bash
@@ -74,9 +78,8 @@ git push --set-upstream origin fb-command-line-examples
 ```
 
 - From your fork open a pull request in the correct branch. Target the project's `develop` branch if there is one, else go for `master`!
-- …
 - If the maintainer requests further changes just push them to your branch. The PR will be updated automatically.
 - Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
 your extra branch(es).
 
-And last but not least: Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
+
