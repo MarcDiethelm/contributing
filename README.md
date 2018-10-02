@@ -4,6 +4,7 @@ If you want to contribute to a project and make it better, your help is very wel
 
 ### How to make a clean pull request
 ### this is a change marked as 1
+### this is a change marked as 2
 
 Look for a project's contribution instructions. If there are any, follow them.
 
