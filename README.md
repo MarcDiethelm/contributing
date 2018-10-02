@@ -6,6 +6,8 @@ If you want to contribute to a project and make it better, your help is very wel
 ### this is a change marked as 1
 ### this is a change marked as 2
 
+### this is a change marked as wer
+
 Look for a project's contribution instructions. If there are any, follow them.
 
 - Create a personal fork of the project on Github.
