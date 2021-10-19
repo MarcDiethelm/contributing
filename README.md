@@ -23,5 +23,6 @@ Look for a project's contribution instructions. If there are any, follow them.
 - If the maintainer requests further changes just push them to your branch. The PR will be updated automatically.
 - Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
 your extra branch(es).
+-I also contribute here ...
 
 And last but not least: Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
